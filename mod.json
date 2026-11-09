@@ -1,0 +1,22 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "v1.0.0",
+	"id": "max.url-trigger",
+	"name": "URL Trigger",
+	"developer": "Max",
+	"description": "Opens a link when the player reaches a marked Text object in a level.",
+	"settings": {
+		"ask-before-open": {
+			"type": "bool",
+			"name": "Ask before opening",
+			"description": "Pause the level and ask for confirmation before opening a link. Recommended: levels can contain any link.",
+			"default": true
+		}
+	}
+}
